@@ -7,6 +7,6 @@ void main() {
   var tanggalStr = (tanggal < 10) ? '0$tanggal' : '$tanggal';
   var bulanStr = (bulan < 10) ? '0$bulan' : '$bulan';
 
-  var hasil = '$tanggalStr Februari $tahun';
+  var hasil = '$tanggalStr Desember $tahun';
   print(hasil);
 }
